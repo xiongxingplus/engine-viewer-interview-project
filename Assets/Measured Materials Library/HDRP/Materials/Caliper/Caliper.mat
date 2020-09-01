@@ -19,6 +19,7 @@ Material:
     MotionVector: User
   disabledShaderPasses:
   - MOTIONVECTORS
+  - TransparentBackface
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -119,7 +120,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Boolean_1171460D: 0
+    - Boolean_1171460D: 1
     - Boolean_9F8B3345: 0
     - Vector1_2426519A: 0.1
     - Vector1_2BC3876C: 0.753

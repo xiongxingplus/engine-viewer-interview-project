@@ -21,20 +21,29 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ChromeSatin
-  m_Shader: {fileID: -6465566751694194690, guid: f98823d5b65e4c54e8e729083506c2d9,
+  m_Shader: {fileID: -6465566751694194690, guid: 68cfc0ed4fd80d746a0b9a666370516a,
     type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _DOUBLESIDED_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: 2000
   stringTagMap:
     MotionVector: User
   disabledShaderPasses:
   - MOTIONVECTORS
+  - TransparentBackface
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_1E4703A:
+        m_Texture: {fileID: 2800000, guid: 361e6fc541d6c694da6215913a1a4cf2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_BB99187C:
+        m_Texture: {fileID: 2800000, guid: cfce99a07432ae4479e21e2e0e12a0cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _AnisotropyMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -120,15 +129,25 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Boolean_77E75FAA: 0
+    - Boolean_F2394607: 1
     - Vector1_190C6BE4: 1
+    - Vector1_20B60D22: 0.1
     - Vector1_22206695: 0.717
+    - Vector1_2E810D38: 0.743
     - Vector1_39957ABB: 0.043
     - Vector1_448D0C99: 1
     - Vector1_4743558D: 1
     - Vector1_59E971D8: 0.1
-    - Vector1_96F85197: 1
+    - Vector1_7EB7D62C: 1
+    - Vector1_96F85197: 0.869
     - Vector1_A0747EDC: 0.1
-    - Vector1_ECDFB20A: 0.716
+    - Vector1_BB4DD4C5: 0.2
+    - Vector1_BD53BAF8: 1
+    - Vector1_BDDC6585: 1
+    - Vector1_C562606: 1
+    - Vector1_E8712278: 0.879
+    - Vector1_ECDFB20A: 0.997
     - Vector1_FEC6FC37: 0.2
     - _AORemapMax: 1
     - _AORemapMin: 0
@@ -144,8 +163,8 @@ Material:
     - _Anisotropy: 0
     - _BlendMode: 0
     - _CoatMask: 0
-    - _CullMode: 2
-    - _CullModeForward: 2
+    - _CullMode: 0
+    - _CullModeForward: 0
     - _Cutoff: 0.5
     - _DepthOffsetEnable: 0
     - _DetailAlbedoScale: 1
@@ -170,7 +189,7 @@ Material:
     - _DistortionSrcBlend: 0
     - _DistortionVectorBias: -1
     - _DistortionVectorScale: 2
-    - _DoubleSidedEnable: 0
+    - _DoubleSidedEnable: 1
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 0
     - _EmissiveColorMode: 1
@@ -254,6 +273,9 @@ Material:
     m_Colors:
     - Color_84E5CB89: {r: 1, g: 1, b: 1, a: 0}
     - Color_A4094516: {r: 1, g: 1, b: 1, a: 0}
+    - Color_AD8F67CE: {r: 0.6470588, g: 0.6470588, b: 0.6470588, a: 0}
+    - Vector2_3344450D: {r: 5, g: 5, b: 0, a: 0}
+    - Vector2_7CFC7CEF: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
