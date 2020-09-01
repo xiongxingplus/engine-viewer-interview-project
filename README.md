@@ -1,6 +1,5 @@
-# engine-viewer-interview-project
-While applying for jobs, I was asked to create an interactive engine viewer in two days.
-
+# Interactive Engine Model Viewer (interview project)
+While applying for jobs, I was asked to create an interactive engine viewer in two days. 
 I took this oppritunity to play around with HDRP and URP as well as Unity's Cinemachine.
 
 # Links
