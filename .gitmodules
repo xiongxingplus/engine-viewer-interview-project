@@ -1,0 +1,4 @@
+[submodule "Assets/Measured Materials Library/Textures"]
+	path = Assets/Measured Materials Library/Textures
+	url = https://github.com/ababilinski/measured-materials-library-textures.git
+	branch = master
